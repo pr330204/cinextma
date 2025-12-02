@@ -96,6 +96,11 @@ export const getMoviePlayers = (id: string | number, startAt?: number): PlayersP
       source: `https://moviesapi.club/movie/${id}`,
       ads: true,
     },
+    {
+      title: "mkvcinemas",
+      source: `https://mkvcinemas.ac/movie/${id}`,
+      ads: true,
+        },
   ];
 };
 
